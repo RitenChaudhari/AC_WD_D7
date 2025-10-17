@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+}
+
+h1,h3,h5{
+    font-family: Georgia;
+}
+
+body p{
+    color:white;
+    background-color: cornflowerblue;
+}
+
+div button{
+    background-color: purple;
+    color:azure;
+}
+
+#mainTopic{
+    color:blue;
+}
+
+button:hover{
+    background-color: yellow;
+    color:blue;
+}
+
