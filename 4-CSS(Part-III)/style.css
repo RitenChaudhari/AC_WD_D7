@@ -1,0 +1,22 @@
+div{
+    height:200px;
+    width:500px;
+    background-color: pink;
+    border: 2px solid black;
+    /* border-left: 2px dashed yellow; */
+    border-radius:10px;
+    /* margin-bottom: 20px; */
+    margin: 10px 20px 30px;
+}
+
+h1{
+    border:2px dashed yellowgreen;
+}
+
+button{
+    border-radius:25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: yellow;
+    border:2px solid black;
+}
