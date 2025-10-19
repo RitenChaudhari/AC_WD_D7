@@ -1,0 +1,65 @@
+/* div{
+    width:300px;
+    height:300px;
+    margin:0 auto;
+    background-color: orange;
+    transition:2s;
+}
+
+div:hover{
+    background-color: orangered;
+    /* margin-top: 400px; 
+    transform: rotate(45deg);
+} */
+
+/* section{
+    margin-top: 100px;
+} */
+
+/* div{
+    width:200px;
+    height:50px;
+    text-align: center;
+    background-color: violet;
+    margin:0 auto;
+    box-shadow: 2px 2px 10px yellow;
+} */
+
+/* div:nth-of-type(2n){
+    background-color: aquamarine;
+}
+div:nth-of-type(3n){
+    background-color: yellow;
+} */
+
+/*transform*/
+/* #one{
+    transform: rotate(45deg);
+}
+#second{
+    transform: scale(2,0.5);
+}
+#third{
+    transform:translate(100px);
+}
+#fourth{
+    transform:skew(45deg);
+}
+#fifth{
+    transform: rotate(30deg) translate(150px);
+} */
+
+/*Background Image*/
+
+div{
+    width:1000px;
+    height:500px;
+    background-color: #7aa874;
+    margin:10px auto;
+    background-image: url("Arthur.jpg");
+    background-size: cover;
+    color:goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+}
