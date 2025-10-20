@@ -50,6 +50,10 @@ div:nth-of-type(3n){
 }
 
 /*Background Image*/
+body{
+    background-color:red;
+}
+
 
 div{
     width:1000px;
@@ -64,3 +68,4 @@ div{
     font-size: 50px;
 
 }
+
