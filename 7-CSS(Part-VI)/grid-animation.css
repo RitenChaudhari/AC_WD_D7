@@ -1,0 +1,66 @@
+.divClass{
+    width:300px;
+    height:300px;
+    background-color: pink;
+    font-size: 48px;
+}
+
+@keyframes fontAnimation{
+    from{font-size: 20px;}
+    to{font-size: 40px;}
+}
+
+@keyframes widthAnimation{
+    from{
+        width:150px;
+        background-color: pink;
+    }
+    to{
+        width:400px;
+        background-color: red;
+    }
+}
+
+@keyframes overallAnimation{
+    0%{
+        background-color: red;
+        font-size:20px;
+    }
+    50%{
+        background-color: yellow;
+        font-size:30px;
+    }
+    75%{
+        background-color: yellowgreen;
+        font-size:45px;
+    }
+    100%{
+        background-color: green;
+        font-size:60px;
+    }
+}
+
+.divClass{
+    /* animation-name: fontAnimation;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 4;
+    animation-direction:reverse; 
+
+    animation: widthAnimation 3s ease-in 0s 4 normal;
+    animation:overallAnimation 3s ease-in 0s 1 normal; */
+    
+}
+
+@media (min-width:200px) and (max-width:400px){
+    h3{background-color: magenta;}
+    h4{background-color: red;}
+}
+
+@media(orientation:landscape){
+    h3{background-color: aqua;
+       color:brown;
+    }
+
+}
